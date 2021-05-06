@@ -50,7 +50,7 @@ const handleAnimalFormSubmit = event => {
 
 };
 const handleZookeeperFormSubmit = event => {
-  event.preventDefautl();
+  event.preventDefault();
 
   //get zookeeper data and organize it
   const name = $zookeeperForm.querySelector('[name="zookeeper-name"]').value;
